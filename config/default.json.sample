@@ -1,0 +1,80 @@
+{
+	// JWT Config
+	"JWT": {
+		"secret" : "",
+		"expiresIn": 
+	},
+	// Encrypt config
+	"Encrypt":{
+		"secret" : ""
+	},
+
+	"Stellar" : {
+		"testNetwork": "https://horizon-testnet.stellar.org",
+		"liveNetwork": "https://horizon.stellar.org",
+		"homeDomain": "lumania.tech",
+		"homeAccount": "",
+		"inflationDest": "",
+		"testHomeDomain": "lumania.tech",
+		"testHomeAccount": "",
+		"testInflationDest": "",
+		"anchorLimit": ""
+	},
+	"Mail" : {
+		"devMode" : 0, // can be 1 or 0. 1 === true, 0 === false
+		"streamType" : "MULTIPLE", //SINGLE || MULTIPLE
+		"apiKey" : "",
+		"domain" : "",
+		"fromAddress": "",
+		"fromName": "Lumania",
+		"signature": "<br>Best regards,<br> Lumania"
+	},
+	"General": {
+		"appEmail" : "",
+		"production": false,
+		"domain": "lumania.tech"
+
+	},
+	"Ionic" :{
+        "baseUrl" : "https://api.ionic.io/",
+        "token" : ""
+  },
+  "Ravepay" : {
+  	"secretKey" : "",
+  	"baseUrl" : "http://api.ravepay.co/flwv3-pug/getpaidx/api/",
+  },
+  "Moneywave" : {
+  	"apiKey" : "",
+  	"secretKey" : "",
+  	"baseUrl" : "http://moneywave.herokuapp.com",
+  	"lock": ""
+  },
+  "Lumania" :
+  {
+  	"accountId" : "",
+  	"skey": "",
+  	"ngnRate": "",
+  	"minLimit": "",
+  	"maxLimit": "",
+  	"apiUrl" : "https://lumania.tech:8888/"
+  },
+  "Rates" : {
+  	"xlmTickerUrl":  "https://api.cryptonator.com/api/ticker/usd-xlm",
+  	"btcTickerUrl":  "https://api.cryptonator.com/api/ticker/btc-xlm",
+  	"fiatTickerUrl": "http://apilayer.net/api/live",
+  	"currencyLayerApi": "",
+  	"currencyList": "NGN,BTC,EUR,GBP,ZAR,KES,GHS",
+  	"currencyListOld": "NGN,EUR,CNY,UGX,ZAR,BWP,INR,KES,GHS,TZS,RWF,GBP",
+  	"withdrawList": "NGN,KES,GHS"
+
+  },
+  "Blockchain" :{
+  	"apiUrl": "https://api.blockchain.info/v2/receive",
+  	"apiKey": "",
+  	"xPub": "",
+  	"callbackUrl": ""
+  }
+
+}
+
+
